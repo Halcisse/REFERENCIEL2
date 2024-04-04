@@ -9,6 +9,46 @@ const router = createRouter({
       name: 'home',
       component: () => import('../views/AccueilView.vue')
     },
+    {
+      path: '/',
+      name: 'metier',
+      component: () => import('../views/Metier.vue')
+    },
+    {
+      path: '/',
+      name: 'vision',
+      component: () => import('../views/Vision.vue')
+    },
+    {
+      path: '/',
+      name: 'metier',
+      component: () => import('../views/Metier.vue')
+    },
+    {
+      path: '/',
+      name: 'services',
+      component: () => import('../views/Services.vue')
+    },
+    {
+      path: '/',
+      name: 'serviceplus',
+      component: () => import('../views/ServicePlus.vue')
+    },
+    {
+      path: '/',
+      name: 'glossaire',
+      component: () => import('../views/Glossaire.vue')
+    },
+    {
+      path: '/',
+      name: 'contact',
+      component: () => import('../views/Contact.vue')
+    },
+    {
+      path: "/:PathMatch(.*)*",
+      name: "notfound",
+      component: () => import('../views/NotFound.vue'),
+    },
     
     // {
     //   path: '/about',

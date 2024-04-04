@@ -26,10 +26,11 @@ body{
 .header{
   position: fixed;
   width: 100%;
-  z-index: 1320;
+ 
 }
 .router{
-  min-height: 105vh;
+  min-height: 100vh;
+  margin: 0
 
 }
 

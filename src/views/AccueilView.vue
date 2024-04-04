@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+import VisionView from '@/views/Vision.vue'
 </script>
 
 <template>
@@ -14,10 +14,10 @@
     <div class="subtitle">VOUS PROPULSE VERS DE NOUVEAUX SOMMETS DANS LE RÉFÉRENCEMENT</div>
     <div class="plus">
         <div class="plusTxt">EN SAVOIR PLUS</div>
-        <img src="../assets/IMAGES/flchaccueil.png" alt="Flèche de direction vers le bas" class="arrow">
+        <img src="../assets/IMAGES/flchplus.png" alt="Flèche de direction vers le bas" class="arrow">
     </div>
-   
 </main>
+
 </template>
 
 
@@ -27,7 +27,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background-color: yellow; */
+
 }
 
 .imgLogo{
@@ -39,7 +39,6 @@
     align-items: center;
     justify-content: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 55px;
     letter-spacing: 22px;
     margin-bottom: 55px;
    
@@ -48,12 +47,21 @@ h1,h2{
     margin: 0;
     color: #533440;
 }
+h1{
+    font-size: 75px;
+}
+h2{
+    font-size: 45px;
+}
+/* .logo{
+    margin-top: 105px;
+} */
 strong{
     color: #2F435A;
 }
 .subtitle{
 margin-bottom: 40px;
-font-size: 25px;
+font-size: 19px;
 font-weight: bold;
 color: #533440;
 letter-spacing: 12px;

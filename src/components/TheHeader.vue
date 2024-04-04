@@ -6,13 +6,13 @@
     </div>
     <div class="headerNav">
  
-    <router-link :to="{ name: 'home' }">ACCUEIL</router-link>
-        <router-link :to="{ name: 'home' }">NOTRE METIER</router-link>
-        <router-link :to="{ name: 'home' }">NOTRE VISION</router-link>
-        <router-link :to="{ name: 'home' }">NOS SERVICES</router-link>
-        <router-link :to="{ name: 'home' }">PLUS DE SERVICES</router-link>
-        <router-link :to="{ name: 'home' }">GLOSSAIRE</router-link>
-        <router-link :to="{ name: 'home' }">CONTACT</router-link>
+        <router-link :to="{ name: 'home' }">ACCUEIL</router-link>
+        <router-link :to="{ name: 'metier' }">NOTRE METIER</router-link>
+        <router-link :to="{ name: 'vision' }">NOTRE VISION</router-link>
+        <router-link :to="{ name: 'services' }">NOS SERVICES</router-link>
+        <router-link :to="{ name: 'serviceplus' }">PLUS DE SERVICES</router-link>
+        <router-link :to="{ name: 'glossaire' }">GLOSSAIRE</router-link>
+        <router-link :to="{ name: 'contact' }">CONTACT</router-link>
  
     </div>
 </header>
@@ -30,8 +30,8 @@
     padding: 19px 0;
     border-bottom: 1px solid rgb(228, 225, 225) ;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: bold;
-  background-color: #fff;
+    font-weight: bold;
+    background-color: #fff;
 
 
 }
@@ -54,4 +54,7 @@ a{
     color: #2F435A;
     
 }
+
+;
+
 </style>
