@@ -29,11 +29,12 @@ body{
  
 }
 .router{
-  min-height: 100vh;
-  margin: 0
+min-height: 110vh;
 
 }
 
-
+h1{
+  margin:0;
+}
 
 </style>

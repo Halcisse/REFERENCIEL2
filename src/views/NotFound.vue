@@ -5,15 +5,17 @@
 
 <template>
 
-<div class="contatcContent">
+<main class="mainNotFound">
         <h1>NOT FOUND</h1>
-        <div class="tel">06 73 49 89 04</div>
-        <div class="mail">contact@referenciel.fr</div>
-
-    </div>
+    </main>
 
 </template>
 
 <style scoped>
-
+.mainNotFound{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 </style>
