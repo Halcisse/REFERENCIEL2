@@ -1,9 +1,14 @@
 <script setup lang="ts">
-import VisionView from '@/views/Vision.vue'
+import ContactView from '../components/Contact.vue'
+import MetierView from '../components/Metier.vue'
+import VisionView from '../components/Vision.vue'
+import ServicesView from '../components/Services.vue'
+import ServicePlusView from '../components/ServicePlus.vue'
+import GlossaireView from '../components/Glossaire.vue'
 </script>
 
 <template>
-<main class="mainHome">
+<main class="mainHome" id="home">
     <div class="logo">
         <img src="../assets/IMAGES/image pc.png" alt="Logo d'un ordinateur portable" class="imgLogo">
     </div>
@@ -16,7 +21,34 @@ import VisionView from '@/views/Vision.vue'
         <div class="plusTxt">EN SAVOIR PLUS</div>
         <img src="../assets/IMAGES/flchplus.png" alt="Flèche de direction vers le bas" class="arrow">
     </div>
+
+
+    <section id="metier">
+       <MetierView />
+    </section>
+
+
+    <section id="vision">
+       <VisionView />
+    </section>
+
+    <section id="services">
+       <ServicesView />
+    </section>
+
+    <section id="servicePlus">
+       <ServicePlusView />
+    </section>
+
+    <section id="glossaire">
+       <GlossaireView />
+    </section>
+
+    <section id="contact">
+       <ContactView />
+    </section>
 </main>
+
 
 </template>
 
@@ -27,7 +59,6 @@ import VisionView from '@/views/Vision.vue'
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
 .imgLogo{
@@ -78,5 +109,8 @@ text-align: center;
 }
 .arrow{
     width:250px ;
+}
+#contact{
+    background-color: red;
 }
 </style>

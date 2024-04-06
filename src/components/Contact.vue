@@ -4,9 +4,11 @@
 
 
 <template>
-<main class="mainVision">
-        <h1>VISION</h1>
 
+    <main class="mainContact" >
+        <h1>Contact</h1>
+        <div class="tel">06 73 49 89 04</div>
+        <div class="mail">contact@referenciel.fr</div>
         <div class="teste">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas enim mi, efficitur in ullamcorper ac, tempus vitae felis. Curabitur molestie libero id tristique ornare. Aliquam aliquet, elit id bibendum egestas, leo elit cursus mauris, lacinia rutrum nisi risus in justo. Aliquam maximus sem nisl, malesuada dignissim nisi rhoncus at. Nam tincidunt, ligula bibendum rutrum molestie, leo enim convallis est, ac elementum nisl eros eget mauris. Aenean dolor urna, suscipit id sagittis a, bibendum in ligula. Duis lacus velit, porta eu luctus eu, vulputate vel nisi. Vestibulum posuere orci vitae eros commodo tempus. Morbi posuere nec leo a dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempor dapibus sem, quis varius mauris viverra vitae. Duis lacus massa, tincidunt eget vehicula in, pharetra id quam. Cras non augue tellus. Aenean ligula quam, viverra at convallis ac, venenatis non ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec sodales ipsum.
 
@@ -25,10 +27,14 @@ Suspendisse non fringilla enim, ut ultrices nunc. Quisque nec nunc non lectus ul
 </template>
 
 <style scoped>
-.mainVision{
+.mainContact{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
+    background-color: #2F435A;
+    margin: 0;
 }
+
 </style>

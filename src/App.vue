@@ -29,7 +29,7 @@ body{
  
 }
 .router{
-min-height: 110vh;
+min-height: 140vh;
 
 }
 

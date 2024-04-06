@@ -6,13 +6,14 @@
     </div>
     <div class="headerNav">
  
-        <router-link :to="{ name: 'home' }">ACCUEIL</router-link>
-        <router-link :to="{ name: 'metier' }">NOTRE METIER</router-link>
-        <router-link :to="{ name: 'vision' }">NOTRE VISION</router-link>
-        <router-link :to="{ name: 'services' }">NOS SERVICES</router-link>
-        <router-link :to="{ name: 'serviceplus' }">PLUS DE SERVICES</router-link>
-        <router-link :to="{ name: 'glossaire' }">GLOSSAIRE</router-link>
-        <router-link :to="{ name: 'contact' }">CONTACT</router-link>
+        <router-link :to="{ hash: '#home' }"> ACCUEIL</router-link>
+        <router-link :to="{ hash: '#metier' }">NOTRE METIER</router-link>
+        <router-link :to="{ hash: '#vision' }">NOTRE VISION</router-link>
+        <router-link :to="{ hash: '#services' }">NOS SERVICES</router-link>
+        <router-link :to="{ hash: '#servicePlus' }">PLUS DE SERVICES</router-link>
+        <router-link :to="{ hash: '#glossaire' }">GLOSSAIRE</router-link>
+        <router-link :to="{ hash: '#contact' }">CONTACT</router-link>
+        <!-- <router-link :to="{ name: 'contact' }">CONTACT</router-link> -->
  
     </div>
 </header>

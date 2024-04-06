@@ -31,5 +31,8 @@ Suspendisse non fringilla enim, ut ultrices nunc. Quisque nec nunc non lectus ul
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
+    background-color: #2F435A;
+    margin: 0;
 }
 </style>

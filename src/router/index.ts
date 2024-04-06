@@ -7,47 +7,47 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: () => import('../views/AccueilView.vue')
+      component: AccueilView
     },
-    {
-      path: '/',
-      name: 'metier',
-      component: () => import('../views/Metier.vue')
-    },
-    {
-      path: '/',
-      name: 'vision',
-      component: () => import('../views/Vision.vue')
-    },
-    {
-      path: '/',
-      name: 'metier',
-      component: () => import('../views/Metier.vue')
-    },
-    {
-      path: '/',
-      name: 'services',
-      component: () => import('../views/Services.vue')
-    },
-    {
-      path: '/',
-      name: 'serviceplus',
-      component: () => import('../views/ServicePlus.vue')
-    },
-    {
-      path: '/',
-      name: 'glossaire',
-      component: () => import('../views/Glossaire.vue')
-    },
-    {
-      path: '/',
-      name: 'contact',
-      component: () => import('../views/Contact.vue')
-    },
+    // {
+    //   path: '/metier',
+    //   name: 'metier',
+    //   component: () => import('../components/Metier.vue')
+    // },
+    // {
+    //   path: '/vision',
+    //   name: 'vision',
+    //   component: () => import('../components/Vision.vue')
+    // },
+    // // {
+    // //   path: '/',
+    // //   name: 'metier',
+    // //   component: () => import('../views/Metier.vue')
+    // // },
+    // {
+    //   path: '/services',
+    //   name: 'services',
+    //   component: () => import('../components/Services.vue')
+    // },
+    // {
+    //   path: '/sericeplus',
+    //   name: 'serviceplus',
+    //   component: () => import('../components/ServicePlus.vue')
+    // },
+    // {
+    //   path: '/glossaire',
+    //   name: 'glossaire',
+    //   component: () => import('../components/Glossaire.vue')
+    // },
+    // {
+    //   path: '/contact',
+    //   name: 'contact',
+    //   component: () => import('../components/Contact.vue')
+    // },
     {
       path: "/:PathMatch(.*)*",
       name: "notfound",
-      component: () => import('../views/NotFound.vue'),
+      component: () => import('../views/NotFoundView.vue'),
     },
     
     // {
@@ -58,7 +58,17 @@ const router = createRouter({
     //   // which is lazy-loaded when the route is visited.
     //   component: () => import('../views/AboutView.vue')
     // }
-  ]
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition;
+    } else {
+      return {
+        el: to.hash,
+        behavior: "smooth",
+      };
+    }
+  },
 })
 
 export default router
