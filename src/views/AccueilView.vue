@@ -114,4 +114,7 @@ text-align: center;
 #contact{
     background-color: red;
 }
+#metier{
+    margin-bottom: 25px;
+}
 </style>

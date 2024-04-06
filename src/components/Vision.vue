@@ -4,22 +4,47 @@
 
 
 <template>
-<main class="mainVision">
-        <h1>VISION</h1>
+    <main class="mainVision">
+        <h1>NOTRE VISION</h1>
+        <div class="visionContent">
+            <section class="visionTxt">
+                Nous croyons fermement en l'importance d'une approche holistique du référencement. 
 
-        <div class="teste">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas enim mi, efficitur in ullamcorper ac, tempus vitae felis. Curabitur molestie libero id tristique ornare. Aliquam aliquet, elit id bibendum egestas, leo elit cursus mauris, lacinia rutrum nisi risus in justo. Aliquam maximus sem nisl, malesuada dignissim nisi rhoncus at. Nam tincidunt, ligula bibendum rutrum molestie, leo enim convallis est, ac elementum nisl eros eget mauris. Aenean dolor urna, suscipit id sagittis a, bibendum in ligula. Duis lacus velit, porta eu luctus eu, vulputate vel nisi. Vestibulum posuere orci vitae eros commodo tempus. Morbi posuere nec leo a dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempor dapibus sem, quis varius mauris viverra vitae. Duis lacus massa, tincidunt eget vehicula in, pharetra id quam. Cras non augue tellus. Aenean ligula quam, viverra at convallis ac, venenatis non ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec sodales ipsum.
+                C'est pourquoi chaque site que nous concevons est soigneusement optimisé pour les moteurs de recherche dès sa conception. 
 
-Cras ultricies, tortor eu mollis commodo, diam elit sagittis justo, vitae sodales nisi risus nec metus. Sed fermentum vulputate tempor. Aliquam erat volutpat. Maecenas consectetur velit non maximus hendrerit. Curabitur vehicula ullamcorper dapibus. Duis erat massa, hendrerit non dolor eget, euismod ullamcorper lacus. Etiam eleifend sapien id mi posuere, nec commodo diam ultrices. Nam sit amet lacus sed purus posuere ultricies eu eu risus. Mauris ut iaculis ligula. Curabitur euismod volutpat odio, quis egestas nunc laoreet vitae.
-
-Sed lacinia ullamcorper neque vitae suscipit. Donec congue pharetra ex non consectetur. Nunc et massa vel augue vestibulum varius. Nulla facilisi. Quisque maximus, lacus a suscipit porttitor, enim quam porta elit, sed aliquam nulla odio ut elit. Quisque ornare pellentesque libero, non dapibus elit semper vel. Cras vitae dapibus erat, ut dictum ipsum. Sed auctor leo ante, id consectetur felis volutpat sed. Aenean ut arcu bibendum, sollicitudin felis sit amet, luctus sem. Etiam auctor, magna eu ullamcorper tempus, felis mauris consectetur magna, molestie cursus nisl est eget justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet erat in pharetra ultricies. Ut et lectus vel nunc laoreet aliquam quis sed nunc.
-
-Vivamus nisl arcu, condimentum at sollicitudin vel, accumsan a velit. Curabitur id varius odio. Fusce fermentum metus et augue commodo porttitor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla malesuada quam ut est lobortis dapibus. In hac habitasse platea dictumst. Vestibulum pharetra molestie lectus ac laoreet. Aliquam urna diam, aliquet sit amet semper eu, elementum et orci.
-
-Suspendisse aliquam, dui non pretium consectetur, ligula sapien volutpat elit, in ullamcorper augue nisl quis lacus. Proin id convallis lorem. Maecenas eleifend elit vel tortor dictum scelerisque. Maecenas at molestie massa. Sed sit amet placerat felis, nec malesuada orci. Fusce commodo elementum leo, congue egestas lectus aliquam at. Vivamus finibus imperdiet ipsum et eleifend. Curabitur pharetra vestibulum diam vel facilisis. Nulla vulputate metus id ipsum tempus, sed vehicula dui interdum. Aenean tincidunt porta elit et volutpat. Mauris dapibus id dolor a laoreet. Etiam volutpat ante vel lorem fringilla laoreet.
-
-Suspendisse non fringilla enim, ut ultrices nunc. Quisque nec nunc non lectus ultrices efficitur luctus quis enim. Pellentesque odio sapien, laoreet aliquam nunc a, pellentesque cursus lectus. Duis orci nulla, faucibus vel mattis a, congue in urna. Vivamus id orci fringilla, imperdiet neque facilisis, mollis justo. Vestibulum convallis posuere leo in tristique. Maecenas sed est enim. Morbi vitae nunc non nulla mollis mollis sit amet at ex. Suspendisse potenti. Integer consectetur nec mauris non iaculis.
+                De la structure de l'URL à la rédaction de contenu, en passant par les balises META et les liens internes
+            </section>
+            <aside class="visionAside">
+                <img src="../assets/IMAGES/LAPTOP.png" alt="photo d'un ordinateur portable" class="laptop">
+                <p class="legende">- Aucun détail n'est négligé dans notre quête de performance SEO - </p>
+            </aside>
         </div>
+        <div class="avantageTitle">
+                <h2>RÉFÉREN<strong>CIEL</strong> <br>SEO</h2>
+            <p>VOUS PERMET DE BÉNÉFICIER DE NOMBREUX AVANTAGES</p>
+            
+            </div>
+        <div class="avantageContent">
+
+                <section class="avantageTxt">
+                <h4>Une visibilité accrue</h4>
+                <p>Votre site web apparaîtra en tête des résultats de recherche, attirant ainsi un trafic qualifié et augmentant vos chances de conversion.</p>
+<br>
+                <h4>Une expérience utilisateur optimisée </h4>
+                <p>Nous concevons des sites web conviviaux et intuitifs, garantissant une expérience utilisateur exceptionnelle à chaque visite</p>
+<br>
+                <h4>Une rentabilité renforcée</h4>
+                <p> Un site web bien positionné génère un retour sur investissement significatif à long terme, en attirant un flux constant de clients potentiels.</p>
+<br>
+                <h4>Suivi et Analyse </h4>
+                <p>Nous vous fournissons des outils de suivi avancés pour surveiller les performances de votre site web et ajuster notre stratégie en conséquence</p>
+<br>            </section>
+                <aside>
+                <img src="../assets/IMAGES/SEOX5.png" alt="photo d'un logo SEO x3" class="SEO5">
+                </aside>
+            
+        </div>
+
 
     </main>
 </template>
@@ -30,6 +55,81 @@ Suspendisse non fringilla enim, ut ultrices nunc. Quisque nec nunc non lectus ul
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+   
+}
+h1{
+    width: 60%;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: #533440;
+    
+    letter-spacing: 7px;
+    text-align: left;
+}
+.visionContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    /* text-align: center; */
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #533440;
+    margin-bottom: 25px;
+}
+.visionTxt{
+    width: 45%;
+    text-align: center;
+    font-size: 24px;
+}
+.visionAside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+.laptop{
+    width: 270px;
+}
+.legende{
+    text-align: center;
+    color: #A47786;
+    font-weight: bold;
+    letter-spacing: 7px;
+    font-size: 28px;
+    margin: 10px 0 0 0 ;
+    width: 60%;
+}
+.avantageContent, .avantageTitle{
+    background-color:#A47786;
+    width: 100%;
+}
+.avantageTitle{
+  
+    text-align: center;
+    color: #533440;
+
+}
+.avantageContent{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+   text-align: center;
+}
+.avantageTxt{
+    font-size: 18px;
+
+}
+h4{
+    color: #533440;
+
+}
+p{
+    color: #E4D4C8;
+    margin: 0;
 }
 </style>
