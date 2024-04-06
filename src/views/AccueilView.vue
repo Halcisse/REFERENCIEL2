@@ -62,7 +62,8 @@ import GlossaireView from '../components/Glossaire.vue'
 }
 
 .imgLogo{
-    width: 350px;
+    width: 450px;
+    margin-top: 60px;
 }
 .title{
     display: flex;
