@@ -24,7 +24,7 @@
         </div>
         <div class="avantageTitle">
                 <h2>RÉFÉREN<strong>CIEL</strong> <br>SEO</h2>
-            <p>VOUS PERMET DE BÉNÉFICIER DE NOMBREUX AVANTAGES</p>
+            <h3>VOUS PERMET DE BÉNÉFICIER DE NOMBREUX AVANTAGES</h3>
             
             </div>
         <div class="avantageContent">
@@ -70,7 +70,6 @@ h1{
     margin-bottom: 64px;
 
 }
-
 
 .visionContent{
     display: flex;
@@ -120,29 +119,53 @@ padding: 34px 0;
     background-color:#A47786;
     width: 100%;
 }
+.SEO5{
+
+}
+img{
+    margin-top: 25px;
+}
 .avantageTitle{
-  
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     color: #533440;
+font-size: 21px;
+font-family: "Goblin One", serif;
+    font-style: normal;
+    padding-bottom: 45px;
 
+}
+
+strong{
+    color: #2F435A;
 }
 .avantageContent{
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
     justify-content: center;
-   text-align: center;
+
 }
 .avantageTxt{
-    font-size: 18px;
+    font-size: 21px;
+    font-family: "Montserrat", sans-serif;
+    width: 50%;
 
+
+}
+h3{
+    width: 40%;
 }
 h4{
     color: #533440;
+    margin: 0;
+
 
 }
 p{
     color: #E4D4C8;
     margin: 0;
+  
 }
 </style>
