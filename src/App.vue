@@ -35,6 +35,9 @@ min-height: 140vh;
 
 h1{
   margin:0;
+  font-family: "Goblin One", serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 </style>
