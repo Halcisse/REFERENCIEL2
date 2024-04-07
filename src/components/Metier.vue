@@ -64,7 +64,7 @@ h1{
     font-size: 36px;
     text-align: center;
     color: #533440;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     letter-spacing: 7px;
 
 }

@@ -118,4 +118,5 @@ font-weight: 500;
 #metier{
     margin-bottom: 25px;
 }
+
 </style>
