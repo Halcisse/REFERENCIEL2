@@ -5,47 +5,54 @@
 
 <template>
     <main class="mainVision">
-   
+
         <div class="visionContent">
             <h1>NOTRE VISION</h1>
             <div class="section">
                 <section class="visionTxt">
-                Nous croyons fermement en l'importance d'une approche holistique du référencement. <br><br>
+                    Nous croyons fermement en l'importance d'une approche holistique du référencement. <br><br>
 
-                C'est pourquoi chaque site que nous concevons est soigneusement optimisé pour les moteurs de recherche dès sa conception. <br><br>
+                    C'est pourquoi chaque site que nous concevons est soigneusement optimisé pour les moteurs de
+                    recherche dès sa conception. <br><br>
 
-                De la structure de l'URL à la rédaction de contenu, en passant par les balises META et les liens internes <br><br>
-            </section>
-            <aside class="visionAside">
-                <img src="../assets/IMAGES/LAPTOP.png" alt="photo d'un ordinateur portable" class="laptop">
-                <p class="legende">- AUCUN DÉTAIL N'EST NÉGLIGÉ DANS NOTRE QUÊTE DE PERFORMANCE SEO -</p>
-            </aside>
+                    De la structure de l'URL à la rédaction de contenu, en passant par les balises META et les liens
+                    internes <br><br>
+                </section>
+                <aside class="visionAside">
+                    <img src="../assets/IMAGES/LAPTOP.png" alt="photo d'un ordinateur portable" class="laptop">
+                    <p class="legende">- AUCUN DÉTAIL N'EST NÉGLIGÉ DANS NOTRE QUÊTE DE PERFORMANCE SEO -</p>
+                </aside>
             </div>
         </div>
         <div class="avantageTitle">
-                <h2>RÉFÉREN<strong>CIEL</strong> <br>SEO</h2>
+            <h2>RÉFÉREN<strong>CIEL</strong> <br>SEO</h2>
             <h3>VOUS PERMET DE BÉNÉFICIER DE NOMBREUX AVANTAGES</h3>
-            
-            </div>
+
+        </div>
         <div class="avantageContent">
 
-                <section class="avantageTxt">
+            <section class="avantageTxt">
                 <h4>Une visibilité accrue</h4>
-                <p>Votre site web apparaîtra en tête des résultats de recherche, attirant ainsi un trafic qualifié et augmentant vos chances de conversion.</p>
-<br>
+                <p>Votre site web apparaîtra en tête des résultats de recherche, attirant ainsi un trafic qualifié et
+                    augmentant vos chances de conversion.</p>
+                <br>
                 <h4>Une expérience utilisateur optimisée </h4>
-                <p>Nous concevons des sites web conviviaux et intuitifs, garantissant une expérience utilisateur exceptionnelle à chaque visite</p>
-<br>
+                <p>Nous concevons des sites web conviviaux et intuitifs, garantissant une expérience utilisateur
+                    exceptionnelle à chaque visite</p>
+                <br>
                 <h4>Une rentabilité renforcée</h4>
-                <p> Un site web bien positionné génère un retour sur investissement significatif à long terme, en attirant un flux constant de clients potentiels.</p>
-<br>
+                <p> Un site web bien positionné génère un retour sur investissement significatif à long terme, en
+                    attirant un flux constant de clients potentiels.</p>
+                <br>
                 <h4>Suivi et Analyse </h4>
-                <p>Nous vous fournissons des outils de suivi avancés pour surveiller les performances de votre site web et ajuster notre stratégie en conséquence</p>
-<br>            </section>
-                <aside>
+                <p>Nous vous fournissons des outils de suivi avancés pour surveiller les performances de votre site web
+                    et ajuster notre stratégie en conséquence</p>
+                <br>
+            </section>
+            <aside>
                 <img src="../assets/IMAGES/SEOX5.png" alt="photo d'un logo SEO x3" class="SEO5">
-                </aside>
-            
+            </aside>
+
         </div>
 
 
@@ -53,16 +60,17 @@
 </template>
 
 <style scoped>
-.mainVision{
+.mainVision {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-   
+
 }
-h1{
-   margin-top: 119px;
+
+h1 {
+    margin-top: 119px;
     font-size: 50px;
     text-align: left;
     color: #533440;
@@ -71,28 +79,31 @@ h1{
 
 }
 
-.visionContent{
+.visionContent {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 45px;
-  width: 70%;
+    width: 70%;
 }
-.section{
+
+.section {
     display: flex;
     flex-direction: row;
 }
-.visionTxt{
+
+.visionTxt {
     text-align: center;
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-padding: 34px 0;
-  width: 90%;
-  color:#2F435A;
+    font-weight: 400;
+    font-style: normal;
+    padding: 34px 0;
+    width: 90%;
+    color: #2F435A;
 }
-.visionAside{
+
+.visionAside {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -101,11 +112,13 @@ padding: 34px 0;
     width: 95%;
     /* background-color: blue; */
 }
-.laptop{
+
+.laptop {
     width: 340px;
     margin-bottom: 49px;
 }
-.legende{
+
+.legende {
     text-align: center;
     color: #A47786;
     letter-spacing: 7px;
@@ -115,57 +128,65 @@ padding: 34px 0;
     font-style: normal;
     margin-bottom: 49px;
 }
-.avantageContent, .avantageTitle{
-    background-color:#A47786;
+
+.avantageContent,
+.avantageTitle {
+    background-color: #A47786;
     width: 100%;
 }
-.SEO5{
 
-}
-img{
+.SEO5 {}
+
+img {
     margin-top: 25px;
 }
-.avantageTitle{
+
+.avantageTitle {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: #533440;
-font-size: 21px;
-font-family: "Goblin One", serif;
+    font-size: 21px;
+    font-family: "Goblin One", serif;
     font-style: normal;
     padding-bottom: 45px;
 
 }
 
-strong{
+strong {
     color: #2F435A;
 }
-.avantageContent{
+
+.avantageContent {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
 
 }
-.avantageTxt{
+
+.avantageTxt {
     font-size: 21px;
     font-family: "Montserrat", sans-serif;
     width: 50%;
 
 
 }
-h3{
+
+h3 {
     width: 40%;
 }
-h4{
+
+h4 {
     color: #533440;
     margin: 0;
 
 
 }
-p{
+
+p {
     color: #E4D4C8;
     margin: 0;
-  
+
 }
 </style>

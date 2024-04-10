@@ -9,19 +9,23 @@
 </script>
 
 <style scoped>
-h1,h2{
+h1,
+h2 {
     margin: 0;
     color: #533440;
     text-align: center;
 }
-h1{
+
+h1 {
     font-size: 75px;
 
 }
-h2{
+
+h2 {
     font-size: 45px;
 }
-strong{
+
+strong {
     color: #2F435A;
 }
 </style>

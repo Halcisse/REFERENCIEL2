@@ -9,70 +9,72 @@ import GlossaireView from '../components/Glossaire.vue'
 </script>
 
 <template>
-<main class="mainHome" id="home">
-    <div class="logo">
-        <img src="../assets/IMAGES/image pc.png" alt="Logo d'un ordinateur portable" class="imgLogo">
-        <Logo />
- 
-    </div>
+    <main class="mainHome" id="home">
+        <div class="logo">
+            <img src="../assets/IMAGES/image pc.png" alt="Logo d'un ordinateur portable" class="imgLogo">
+            <Logo />
 
-    <div class="subtitle">VOUS PROPULSE VERS DE NOUVEAUX SOMMETS DANS LE RÉFÉRENCEMENT</div>
-    <div class="plus">
-        <div class="plusTxt">EN SAVOIR PLUS</div>
-        <img src="../assets/IMAGES/flchplus.png" alt="Flèche de direction vers le bas" class="arrow">
-    </div>
+        </div>
 
-
-    <section id="metier">
-       <MetierView />
-    </section>
+        <div class="subtitle">VOUS PROPULSE VERS DE NOUVEAUX SOMMETS DANS LE RÉFÉRENCEMENT</div>
+        <div class="plus">
+            <div class="plusTxt">EN SAVOIR PLUS</div>
+            <img src="../assets/IMAGES/flchplus.png" alt="Flèche de direction vers le bas" class="arrow">
+        </div>
 
 
-    <section id="vision">
-       <VisionView />
-    </section>
+        <section id="metier">
+            <MetierView />
+        </section>
 
-    <section id="services">
-       <ServicesView />
-    </section>
 
-    <section id="servicePlus">
-       <ServicePlusView />
-    </section>
+        <section id="vision">
+            <VisionView />
+        </section>
 
-    <section id="glossaire">
-       <GlossaireView />
-    </section>
+        <section id="services">
+            <ServicesView />
+        </section>
 
-    <section id="contact">
-       <ContactView />
-    </section>
-</main>
+        <section id="servicePlus">
+            <ServicePlusView />
+        </section>
+
+        <section id="glossaire">
+            <GlossaireView />
+        </section>
+
+        <section id="contact">
+            <ContactView />
+        </section>
+    </main>
 
 
 </template>
 
 
 <style scoped>
-.mainHome{
+.mainHome {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.imgLogo{
+.imgLogo {
     width: 450px;
     margin-top: 60px;
- 
+
 }
-.logo{
+
+.logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 25px;
 }
+
 /* h1,h2{
     margin: 0;
     color: #533440;
@@ -90,33 +92,36 @@ h2{
 /* strong{
     color: #2F435A;
 } */
-.subtitle{
-margin-bottom: 40px;
-font-size: 19px;
-font-weight: bold;
-color: #533440;
-letter-spacing: 10px;
-width: 50%;
-text-align: center;
-font-family: "Montserrat", sans-serif;
-font-weight: 500;
+.subtitle {
+    margin-bottom: 40px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #533440;
+    letter-spacing: 10px;
+    width: 50%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
 }
-.plus{
+
+.plus {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
-    color: #9DB6CC;  
+    justify-content: center;
+    color: #9DB6CC;
     font-weight: bold;
 }
-.arrow{
-    width:250px ;
-}
-#contact{
-    background-color: red;
-}
-#metier{
-    margin-bottom: 25px;
+
+.arrow {
+    width: 250px;
 }
 
+#contact {
+    background-color: red;
+}
+
+#metier {
+    margin-bottom: 25px;
+}
 </style>

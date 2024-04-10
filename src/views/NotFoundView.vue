@@ -5,14 +5,14 @@
 
 <template>
 
-<main class="mainNotFound">
+    <main class="mainNotFound">
         <h1>NOT FOUND</h1>
     </main>
 
 </template>
 
 <style scoped>
-.mainNotFound{
+.mainNotFound {
     display: flex;
     flex-direction: column;
     align-items: center;
